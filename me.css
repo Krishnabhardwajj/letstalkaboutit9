@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+.vid-bg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 130%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-area{
+    background: transparent;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo img{
+	float: left;
+	width: 250px;
+	height: auto;
+}
+
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+
+}
+.menu-area li{
+    display: inline-block;
+    margin: 5px;
+    
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+
+}
+ul li a:hover{
+    display: inline-flex;
+    border-radius: 25px;
+	background-color: #fff;
+	color: #000;
+}
+.menu-area li.active a{
+    border-radius: 25px;
+    background-color: #fff;
+	color: #000;
+
+}
+.banner-text{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 25%;
+
+}
+.banner-text h2{
+    color:blanchedalmond;
+    font-size: 75px;
+    margin: 0;
+    margin-top: 10%;
+}
+.banner-text h2 span{
+    color:aqua;
+
+}
+.banner-text p{
+    color: rgb(173, 252, 255);
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10%;
+    font-weight: bold;
+
+}
+.btn{
+    display: inline-flex;
+    margin-top: 20%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
